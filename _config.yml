@@ -1,0 +1,8 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: MAC0499
+description: Bachelor's Monograph
+logo: /img/spira_logo.png
+show_downloads: true
