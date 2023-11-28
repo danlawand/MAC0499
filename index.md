@@ -1,4 +1,4 @@
-#  Training Pipeline in SPIRA project
+#  Introducing MLOps Practices in the SPIRA Continuos Training Pipeline
 
 Page for the discipline MAC0499 - Capstone Project - at IME-USP.
 
