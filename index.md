@@ -8,20 +8,20 @@ Page for the discipline MAC0499 - Capstone Project - at IME-USP.
   - Prof. Dr. Alfredo Goldman
   - M.Sc. Renato Cordeiro Ferreira
 
-<!-- ### **Summary:**
+### **Summary:**
 
-Respiratory insufficiency is a symptom caused by the inadequate gas exchange performed by the respiratory system. [SPIRA](https://spira.ime.usp.br/coleta/) is a research project created during the COVID-19 pandemic to detect respiratory insufficiency via speech recognition based on Machine Learning models. The project is currently preparing to train a new generation of models that will be validated in hospitals with the help of medical personnel. Due to the demand for validation, one of the steps of this preparation phase is to build a new system that applies these models.
-This monograph describes the planning, implementation and deployment of an intelligent distributed inference system that allows medical personnel to perform a respiratory insufficiency pre-diagnosis using the models created by SPIRA. The research shows the advantages in responsiveness and resilience obtained by adopting a reactive microservices architecture. Moreover, it emphasizes the importance of MLOps in modern Machine Learning Engineering through the lessons learned from the preliminary system. The impacts on quality obtained by following these principles are highlighted with the implementation of a pipeline and a registry to automate the deploy of new models in the final version of the inference system.  -->
+During the COVID-19 pandemic, an interdisciplinary group from the University of São Paulo created SPIRA: an intelligent system capable of pre-diagnosing respiratory insufficiency via speech analysis based on Machine Learning (ML). Currently, the project is being prepared to train a new generation of models with data collected from partner hospitals. The goal of this research is to implement a continuous training pipeline for SPIRA. This will allow automatic, on-demand retraining of models as new labeled data gets acquired over time. Unfortunately, the original experimental pipeline lacked good MLOps practices, which come from both software engineering and machine learning practices. This made the pipeline difficult to maintain. To improve its reliability, this research applied changes into three layers of the system: architecture, components, and code. For the architectural layer, it introduced the hexagonal architectural pattern, isolating business logic (core) from external dependencies (adapters) through well-defined interfaces (ports). In the component layer, it applied design patterns and ML engineering practices to improve the flexibility of the system. Finally, in the code layer, it used clean code techniques to make development decisions more explicit and ease the onboarding of new developers. Overall, these changes brought important quality attributes for the system: maintainability, extensibility, and readability. Moreover, it allowed the automated deployment and execution of the pipeline. When combined, these improvements will provide a consistent framework for data scientists to further evolve the SPIRA model.
 
 ## Proposal (in Portuguese)
 
 [Download](./docs/proposal.pdf) | [Online](https://github.com/danlawand/MAC0499/blob/main/docs/proposal.pdf)
 
+<!--
 ## WIP - Presentation
 
 [Online](https://docs.google.com/presentation/d/1YwmEnBYANt809Q-RLivfO-HputAdU7U2H2g3XSCWky0/edit?usp=sharing)
 
-<!-- ## Poster
+ ## Poster
 
 [Download](./poster.pdf)
 
