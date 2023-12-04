@@ -4,7 +4,7 @@ Page for the discipline MAC0499 - Capstone Project - at IME-USP.
 
 ### **Members:** Daniel Angelo Esteves Lawand (10297693)
 
-### **Supervisors:** 
+### **Supervisors:**
   - Prof. Dr. Alfredo Goldman
   - M.Sc. Renato Cordeiro Ferreira
 
@@ -32,10 +32,10 @@ This monograph describes the planning, implementation and deployment of an intel
 ## Subjective Part
 
 [Download](./subjective_part.pdf)
-
+-->
 ## Monograph
 
-[Download](./Monograph.pdf) -->
+[Download](./docs/monograph.pdf)
 
 ## Repository
 
