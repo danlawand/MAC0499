@@ -17,7 +17,7 @@ This monograph describes the planning, implementation and deployment of an intel
 
 [Download](./docs/proposal.pdf) | [Online](https://github.com/danlawand/MAC0499/blob/main/docs/proposal.pdf)
 
-## Presentation
+## WIP - Presentation
 
 [Online](https://docs.google.com/presentation/d/1YwmEnBYANt809Q-RLivfO-HputAdU7U2H2g3XSCWky0/edit?usp=sharing)
 
@@ -33,15 +33,15 @@ This monograph describes the planning, implementation and deployment of an intel
 
 [Download](./subjective_part.pdf)
 -->
-## Monograph
+## WIP - Monograph
 
-[Download](./docs/monograph.pdf)
+[Download](./docs/monograph.pdf) | [Online](https://github.com/danlawand/MAC0499/blob/main/docs/monograph.pdf)
 
 ## Repository
 
 <!--| Description |
 | --- |-->
-| [Training Pipeline](https://github.com/spirabr/SPIRA-training) |
+[Training Pipeline](https://github.com/spirabr/SPIRA-training)
 
 
 ## Contact Information
