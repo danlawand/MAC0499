@@ -1,4 +1,4 @@
-#  Introducing MLOps Practices in the SPIRA Continuos Training Pipeline
+#  Enabling MLOps in the SPIRA Training Pipeline
 
 Page for the discipline MAC0499 - Capstone Project - at IME-USP.
 
@@ -10,7 +10,7 @@ Page for the discipline MAC0499 - Capstone Project - at IME-USP.
 
 ### **Summary:**
 
-During the COVID-19 pandemic, an interdisciplinary group from the University of São Paulo created SPIRA: an intelligent system capable of pre-diagnosing respiratory insufficiency via speech analysis based on Machine Learning (ML). Currently, the project is being prepared to train a new generation of models with data collected from partner hospitals. The goal of this research is to implement a continuous training pipeline for SPIRA. This will allow automatic, on-demand retraining of models as new labeled data gets acquired over time. Unfortunately, the original experimental pipeline lacked good MLOps practices, which come from both software engineering and machine learning practices. This made the pipeline difficult to maintain. To improve its reliability, this research applied changes into three layers of the system: architecture, components, and code. For the architectural layer, it introduced the hexagonal architectural pattern, isolating business logic (core) from external dependencies (adapters) through well-defined interfaces (ports). In the component layer, it applied design patterns and ML engineering practices to improve the flexibility of the system. Finally, in the code layer, it used clean code techniques to make development decisions more explicit and ease the onboarding of new developers. Overall, these changes brought important quality attributes for the system: maintainability, extensibility, and readability. Moreover, it allowed the automated deployment and execution of the pipeline. When combined, these improvements will provide a consistent framework for data scientists to further evolve the SPIRA model.
+SPIRA is a ML-enabled system to pre-diagnosis insufficiency respiratory based on speech analysis. The training pipeline created during its initial modelling led to an accidental architecture, which lacked good software quality attributes. The goal of this research is to design a continuous training pipeline to enable MLOps for SPIRA. Based on the issues found in the experimental implementation, this research proposes a new architecture for the system. It combines design principles and design patterns with the hexagonal architecture pattern, supporting several quality attributes: maintainability, extensibility, reusability, robustness, efficiency, understandability, and readability. With them, the training pipeline can be easily modified and evolved alongside its three axes of change: code, model, and data. Furthermore, this research also improves the infrastructure of the system, to ensure it is easy to run. This is essential to continuously deliver new versions of the SPIRA model. Together, these changes enable MLOps practices in the project.
 
 ## Proposal (in Portuguese)
 
@@ -33,7 +33,7 @@ During the COVID-19 pandemic, an interdisciplinary group from the University of 
 
 [Download](./subjective_part.pdf)
 -->
-## WIP - Monograph
+## Monograph
 
 [Download](./docs/monograph.pdf) | [Online](https://github.com/danlawand/MAC0499/blob/main/docs/monograph.pdf)
 
